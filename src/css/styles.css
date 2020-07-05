@@ -180,6 +180,65 @@ body {
     }
 }
 
+@media (width: 375px) {
+
+    .slide__image {
+        margin-left: -10px;
+        z-index: -1;
+    }
+    .slide__author {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .slide__author-ocupation {
+        font-size: 16px !important;
+        display: block;
+        font-weight: 100;
+        color: #babacf;
+    }
+    .slide__content {
+        padding-top: 30px;
+        font-size: 15px;
+    }
+    .slide__image img {
+        width: 250px;
+    }
+    .slides {
+        display: block;
+        flex-direction: row;
+        text-align: left;
+    }
+}
+@media (width: 320px) {
+
+    .slide__image {
+        margin-left: -15px;
+        z-index: -1;
+    }
+    .slide__author {
+        margin-top: 30px;
+        font-size: 10px;
+    }
+    .slide__author-ocupation {
+        font-size: 12px !important;
+        display: block;
+        font-weight: 100;
+        color: #babacf;
+    }
+    .slide__image img {
+        width: 210px;
+    }
+    .slide__content {
+        margin-top: 30px;
+        padding-top: 30px;
+        font-size: 10px;
+    }
+    .slides {
+        display: block;
+        flex-direction: row;
+        text-align: left;
+    }
+}
 .slide__2 {
     display: none;
 }
