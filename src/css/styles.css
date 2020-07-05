@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+    background-image: url("../Images/pattern-curve.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.slides {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.slide__image {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 40px;
+    background-image: url("../Images/pattern-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.slide__image img {
+    width: 300px;
+    height: 100%;
+}
+
+.slide__content {
+    padding-top: 30px;
+    font-size: 19px;
+    background-image: url("../Images/pattern-quotes.svg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 15%;
+}
+
+.slide__testimonial {
+    line-height: 1.4;
+    font-weight: 300;
+    color: #202046;
+}
+
+.slide__author {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.slide__author-ocupation {
+    font-size: 16px !important;
+    display: block;
+    font-weight: 100;
+    color: #babacf;
+}
+
